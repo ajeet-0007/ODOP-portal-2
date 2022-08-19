@@ -35,6 +35,12 @@
   margin-left: 30px;
 }
 
+.sidebar div:hover{
+  font-size: larger;
+  transition-delay: 0.2s;
+}
+
+
 .complaint-sec-1 {
   width: 900px;
   height: 900px;
