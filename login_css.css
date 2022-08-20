@@ -10,6 +10,7 @@
 }
 
 .login-details{
+    justify-content: center;
     width:550px;
     height:530px;
     background-color: white;
