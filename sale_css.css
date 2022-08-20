@@ -6,18 +6,17 @@
 .main-box{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 762px;
-
+    width: 100%; 
+    background-color: #F8F8F8;
 }
 
 .left-box{
     display: flex;
     flex-direction: column;
     width:350px;
-    height: 780px;
+    padding:  10px;
     background-color: #D2D2D2;
-    
+    height : 600px;
 }
 
 .details{
@@ -35,7 +34,7 @@
 
 .menu{
     margin-left: 50px;
-    height: 200px;
+    height: 300px;
 }
 
 .menu ul li img{
@@ -73,4 +72,45 @@
     padding: 20px;
     list-style-type: none;
     font-weight: bolder;
+}
+
+.right-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-box div{
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.right-box-one{
+    margin-left:50px;
+    background-color: #D2D2D2;
+    height: 150px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.right-box-two{
+    margin-left: 30px;
+}
+
+.right-box-three{
+    margin-left: 150px;
+}
+
+.right-box-four{
+    background-color: #D2D2D2;
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 900px;
+    height: 350px;
+    border-radius: 10px;
+}
+.right-box-four ul li{
+    display: inline;
+    margin-left: 60px;
 }
