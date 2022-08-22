@@ -16,7 +16,7 @@
     width: 30%;
     padding:  10px;
     background-color: #D2D2D2;
-    height : 600px;
+    height : 700px;
 }
 
 .details{
@@ -78,40 +78,79 @@
     display: flex;
     flex-direction: column;
     width: 70%;
+    padding: 30px;
+    
 }
 
 .right-box div{
+    width: 100%;
+    background-color: #F0F0F0;
+}
+
+.heading{
+    height: 50px;
     padding: 20px;
-    font-family: sans-serif;
-    font-weight: bolder;
-    font-size: 20px;
+    border-radius: 20px;
 }
 
-.right-box-one{
-    margin-left:50px;
-    background-color: #D2D2D2;
-    height: 150px;
-    width: 900px;
-    border-radius: 10px;
+.right-box-details{
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
 }
 
-.right-box-two{
-    margin-left: 30px;
+.right-box ul{
+    padding: 20px;
 }
 
-.right-box-three{
-    margin-left: 150px;
-}
-
-.right-box-four{
-    background-color: #D2D2D2;
-    margin-left: 50px;
-    margin-top: 10px;
-    width: 900px;
-    height: 350px;
-    border-radius: 10px;
-}
-.right-box-four ul li{
+.right-box-details ul li{
     display: inline;
-    margin-left: 60px;
+    margin-left: 80px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: bold;
+
 }
+
+.right-box-buttons{
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.right-box-buttons ul li{
+    margin-left: 7%;
+    list-style-type: none;
+    width: 25%;
+}
+.right-box-buttons ul{
+        width: 100%;
+        display: flex;
+}
+.center{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.enter-recommendation{
+    margin-top: 10px;
+    width:100%;
+    background-color:#D2D2D2;
+    height: 200px;
+}
+
+.buttons{
+    margin-top: 40px;
+
+}
+

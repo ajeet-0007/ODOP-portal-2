@@ -8,32 +8,41 @@
   flex-direction: row;
 }
 
-.sidebar {
-  width: 280px;
-  height: 1300px;
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+
+
+.sidebar{
+  width: 22%;
+  padding: 30px;
   left: 0px;
   top: 0px;
   display: flex;
-  background: #12131c;
+  background: #12131C;
   flex-direction: column;
-  justify-content: first baseline;
+  
 }
 
-.sidebar div {
+.sidebar div{
   display: flex;
   margin-left: 30px;
-
-  position: relative;
-  margin-top: 50px;
+ padding: 20px;
   align-items: center;
 }
 
-.sidebar div a {
+.sidebar div a{
   text-decoration: none;
   font-family: sans-serif;
   color: white;
   margin-left: 30px;
 }
+
+
+
+
 
 .sidebar div:hover{
   font-size: larger;
@@ -52,7 +61,7 @@
 
 .dashboard-content {
   background-color: #d8d9e5;
-  width: 100%;
+  width: 78%;
   height: 1300px;
   display: flex;
   flex-direction: column;
@@ -65,7 +74,7 @@
 }
 
 .overall-profit {
-  width: 700px;
+  width: 60%;
   height: 300px;
   margin-left: 50px;
   margin-top: 40px;
@@ -74,7 +83,7 @@
 }
 
 .register-stock {
-  width: 250px;
+  width: 25%;
   height: 300px;
   margin-left: 50px;
   margin-top: 40px;
@@ -93,7 +102,7 @@
 
 
 .active-stock {
-  width: 1000px;
+  width: 90%;
   height: 400px;
   margin-top: 20px;
   margin-left: 50px;
@@ -121,7 +130,7 @@ border-radius: 12px;
 }
 
 .sold-stock {
-  width: 1000px;
+  width: 90%;
   height: 400px;
   margin-top: 20px;
   margin-left: 50px;
