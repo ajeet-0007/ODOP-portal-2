@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    background-color: #F8F8F8;
+}
+
+.left-box{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding:  10px;
+    background-color: #D2D2D2;
+    height : 700px;
+}
+
+.details{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.details img{
+    float: left;
+}
+
+.content{
+    text-align: center;
+}
+
+.menu{
+    margin-left: 50px;
+    height: 300px;
+    padding: 30px;
+}
+
+.menu ul li img{
+    padding: 15px;
+}
+
+.menu ul li{
+    list-style-type: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    text-align: left;
+    font-weight: bolder;
+    color: black;
+}
+
+.menu ul li a:hover{
+    font-weight: 60px;
+}
+
+.pending-tasks{
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 350px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.pending-tasks ul{
+    padding: 30px;
+}
+
+.pending-tasks ul li{
+    padding: 20px;
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+.right-box{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 30px;
+    
+}
+
+.seller-details{
+    display: flex;
+    background-color: #D2D2D2;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.card{
+    width: 50%;
+}
+
+.card-details{
+    width: 50%;
+    text-align: center;
+}
+
+.card-details li{
+    list-style-type: none;
+}
+
+.scheduled-logistics{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #D2D2D2;
+    height: 355px;
+    border-radius: 10px;
+}

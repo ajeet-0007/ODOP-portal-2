@@ -1,0 +1,159 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    background-color: #F8F8F8;
+}
+
+.left-box{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding:  10px;
+    background-color: #D2D2D2;
+    height : 720px;
+}
+
+.details{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.details img{
+    float: left;
+}
+
+.content{
+    text-align: center;
+}
+
+.menu{
+    margin-left: 50px;
+    height: 300px;
+}
+
+.menu ul li img{
+    padding: 15px;
+}
+
+.menu ul li{
+    list-style-type: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    text-align: left;
+    font-weight: bolder;
+    color: black;
+}
+
+.menu ul li a:hover{
+    font-weight: 60px;
+}
+
+.pending-tasks{
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 350px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.pending-tasks ul{
+    padding: 30px;
+}
+
+.pending-tasks ul li{
+    padding: 20px;
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+.right-box{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 30px;
+    
+}
+
+.right-box div{
+    width: 100%;
+    background-color: #F0F0F0;
+}
+
+.heading{
+    height: 50px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.right-box-details{
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.right-box ul{
+    padding: 20px;
+}
+
+.right-box-details ul li{
+    display: inline;
+    margin-left: 80px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.right-box-buttons{
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.right-box-buttons ul li{
+    margin-left: 7%;
+    list-style-type: none;
+    width: 25%;
+}
+.right-box-buttons ul{
+        width: 100%;
+        display: flex;
+}
+.center{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.desc-header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+
+.desc-header li{
+    display: inline;
+    margin-left: 0px;
+}
+
+
+

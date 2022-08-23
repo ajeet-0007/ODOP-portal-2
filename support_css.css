@@ -1,0 +1,178 @@
+* {
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .main-model {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  *{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    background-color: #F8F8F8;
+}
+
+.left-box{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding:  10px;
+    background-color: #D2D2D2;
+    height : 900px;
+}
+
+.details{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.details img{
+    float: left;
+}
+
+.content{
+    text-align: center;
+}
+
+.menu{
+    margin-left: 50px;
+    height: 300px;
+}
+
+.menu ul li img{
+    padding: 15px;
+}
+
+.menu ul li{
+    list-style-type: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    text-align: left;
+    font-weight: bolder;
+    color: black;
+}
+
+.menu ul li a:hover{
+    font-weight: 60px;
+}
+
+.pending-tasks{
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 350px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.pending-tasks ul{
+    padding: 30px;
+}
+
+.pending-tasks ul li{
+    padding: 20px;
+    list-style-type: none;
+    font-weight: bolder;
+}
+  .complaint-sec-1 {
+    width: 55%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    background-color: #d8d9e5;
+  }
+  
+  .dash {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 25px;
+  }
+  
+  .complaint-overview {
+    height: 177px;
+    margin-top: 37px;
+    margin-left: 30px;
+    background: #f1f1f1;
+    border-radius: 12px;
+  }
+  
+  .my-complaints {
+    height: 780px;
+    margin-top: 10px;
+    margin-left: 29px;
+    margin-bottom: 20px;
+    background: #f1f1f1;
+    border-radius: 12px;
+  }
+  
+  .my-complaints p {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 25px;
+  }
+  
+  .my-complaints ul {
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 15px;
+  }
+  
+  .my-complaints ul li {
+    text-decoration: none;
+    margin-left: 45px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  .complaint-sec-2 {
+    width: 23%;
+    padding: 20px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    background-color: #d8d9e5;
+  }
+  
+  .register-complaint {
+    margin-left: 10px;
+    width: 200px;
+    height: 142px;
+    margin-left: 10px;
+    margin-top: 81px;
+    background: #f1f1f1;
+    border-radius: 12px;
+  }
+  
+  .contact-us {
+    width: 200px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #f1f1f1;
+    border-radius: 12px;
+  }
+  
+  .faq {
+    width: 200px;
+    height: 216px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #f1f1f1;
+    border-radius: 12px;
+  }
+  
